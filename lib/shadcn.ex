@@ -1,4 +1,5 @@
 defmodule Shadcn do
+  defdelegate badge(assigns), to: Shadcn.Badge
   defdelegate card(assigns), to: Shadcn.Card
   defdelegate card_header(assigns), to: Shadcn.Card
   defdelegate card_title(assigns), to: Shadcn.Card
